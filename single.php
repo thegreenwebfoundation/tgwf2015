@@ -77,7 +77,7 @@
 											</div>
 											<div class="col-md-8">
 												<h3><?php the_title(); ?></h3>
-												<?php the_content(); ?>
+												<?php the_excerpt(); ?>
 											</div>
 										</a>									
 									</div>
