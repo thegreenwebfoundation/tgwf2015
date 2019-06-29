@@ -11,7 +11,7 @@
 				</div>		
 				<div class="row">
 					<div class="col-md-7 col-md-offset-2">
-						<h1>Is your site hosted <span class="tgw-green">green</span>?</h1>
+						<h1>Is your website hosted <span class="tgw-green">green</span>?</h1>
 						<blockquote class="tgw-medium-grey">One day the Internet will run entirely on renewable energy. The Green Web Foundation believes that day should be within reach, and develops tools to speed up the transition towards a green Internet</blockquote>
 					</div>
 				</div>
