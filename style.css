@@ -425,7 +425,6 @@ header.sticky + article {
 
 .single .article-title {
   min-height: 300px;
-  height: 300px;
   font-size: 62px;
   color: white;
   display: table-cell;
