@@ -23,7 +23,7 @@ Text Domain: tgwf
 
 /* Repeatables */
 .tgw-body {
-  color: #505050 !important;
+  color: #505050;
 }
 .tgw-green {
   color: #76c22d !important;
@@ -432,7 +432,8 @@ header.sticky + article {
 }
 
 .single .article-title h1 {
-  padding-bottom: 32px;
+  padding: 0.5rem 0.5rem 1rem 1rem;
+  text-shadow: 3px 3px 4px #333;
 }
 
 .single .post-entry a {
