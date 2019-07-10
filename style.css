@@ -874,12 +874,16 @@ article,
 article p {
   font-weight: 300;
 }
+
+article img {
+  margin-top: 2rem;
 }
 
 article p {
   font-size: 2rem;
   line-height: 1.6;
 }
+
 article ul {
   margin-top: 2rem;
 }
