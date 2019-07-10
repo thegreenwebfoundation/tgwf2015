@@ -872,7 +872,8 @@ header.sticky + .container {
 
 article,
 article p {
-  font-weight: 400;
+  font-weight: 300;
+}
 }
 
 article p {
