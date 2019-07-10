@@ -870,7 +870,8 @@ header.sticky + .container {
   }
 }
 
-article {
+article,
+article p {
   font-weight: 400;
 }
 
