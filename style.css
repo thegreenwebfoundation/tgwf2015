@@ -437,7 +437,7 @@ header.sticky + article {
 }
 
 .single p {
-  font-weight: 400;
+  font-weight: 300;
 }
 .single .post-entry a {
   border: 0;
@@ -868,6 +868,10 @@ header.sticky + .container {
   .scroll-down img {
     display: none !important;
   }
+}
+
+article {
+  font-weight: 400;
 }
 
 article p {
