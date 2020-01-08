@@ -86,7 +86,7 @@
 						<div class="box">
 							<a href="<?php the_permalink() ?>" rel="bookmark" title="Link to <?php the_title_attribute(); ?>">
 								<?php if ( has_post_thumbnail() ) {
-									the_post_thumbnail();
+									the_post_thumbnail('medium');
 								} else { ?>
 									<img class="news-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/the-green-web-placeholder.svg" alt="News items without featured image">								
 								<?php } ?>
