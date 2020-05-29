@@ -45,7 +45,7 @@
 						<div id="activity_feed_checks"></div>					
 					</div>
 					<div id="right" class="col-md-3 col-sm-3 activity">
-						<span><img class="img-responsive" src="https://graphite.thegreenwebfoundation.org/render/?width=230&height=175&_salt=1409819122.824&target=alias%28hitcount%28stats.api.greencheck_job.checks%2C%221d%22%29%2C%22Checks%20per%20hour%22%29&logBase=10&bgcolor=FFFFFF&colorList=%2370ba2b&fgcolor=000000&title=Greenchecks%20performed%20per%20day&from=-1months&hideLegend=true&xFormat=%25d-%25m&yUnitSystem=none&hideGrid=true" alt="Trends Greenweb checks"></span>					
+						<span><img class="img-responsive" src="https://graphite.thegreenwebfoundation.org/render/?width=230&height=175&target=alias(hitcount(stats.api.greencheck_job.checks%2C%221d%22)%2C%22Checks%20per%20day%22)&bgcolor=FFFFFF&colorList=%2370ba2b&_salt=1590767382.52&fgcolor=000000&title=Greenchecks%20performed%20per%20day&from=-1month&hideLegend=true&xFormat=%25d-%25m&yUnitSystem=none&hideGrid=true" alt="Trends Greenweb checks"></span>					
 					</div>					
 				</div>
 			</div>			
