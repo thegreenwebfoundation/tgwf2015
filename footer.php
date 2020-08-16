@@ -27,6 +27,6 @@
 	</div> <!-- post-x -->
 
 	<?php wp_footer(); ?>
-		
+	<script async defer src="https://scripts.withcabin.com/hello.js"></script>
 </body>
 </html>
