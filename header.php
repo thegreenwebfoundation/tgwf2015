@@ -7,7 +7,7 @@
 		$greencheck = str_replace('https://', '', $greencheck);
 		$greencheck = explode("/",$greencheck);
 
-		$response = wp_remote_get('https://api.thegreenwebfoundation.org/greencheck/'.$greencheck[0], ['timeout' => 10]);
+		$response = wp_remote_get('https://api.thegreenwebfoundation.org/greencheck/'.$greencheck[0] . '?nocache=true', ['timeout' => 10]);
 		$greencheckResult = json_decode(wp_remote_retrieve_body($response));
 	} else { 
 		global $greencheckResult;

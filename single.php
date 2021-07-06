@@ -6,7 +6,7 @@
 				<?php if ( has_post_thumbnail() ) { 
 					$image_data = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "post-thumbnail" ); ?>
 					<div class="container">
-						<div class="row featured-image" style="background-image:url('<?php echo $image_data[0]; ?>')">
+						<div class="row featured-image" style="background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('<?php echo $image_data[0]; ?>')">
 							<div class="col-md-6 col-md-offset-2 article-title">
 								<?php the_title('<h1 class="article-title">','</h1>') ?>
 							</div>	    					

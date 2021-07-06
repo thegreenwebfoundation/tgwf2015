@@ -37,9 +37,9 @@
 								<div class="col-md-7 col-sm-7 col-xs-12">
 									<span>Congratulations! The website is hosted green. This hoster is using green energy / compensation for its services.</span><br><br>
 									<strong>Is this your website? Implement this badge on your website and show the world you are green.</strong><br>							
-									<img src="https://api.thegreenwebfoundation.org/greencheckimage/<?php echo $greencheck[0]; ?>" alt="This website is hosted Green - checked by thegreenwebfoundation.org">
+									<img src="https://api.thegreenwebfoundation.org/greencheckimage/<?php echo $greencheck[0]; ?>?nocache=true" alt="This website is hosted Green - checked by thegreenwebfoundation.org">
 									<p>Save this image or use the code below to implement this badge on your website.</p>
-									<pre><?php echo htmlspecialchars('<img src="https://api.thegreenwebfoundation.org/greencheckimage/') . $greencheck[0] . htmlspecialchars('" alt="This website is hosted Green - checked by thegreenwebfoundation.org">');?></pre>
+									<pre><?php echo htmlspecialchars('<img src="https://api.thegreenwebfoundation.org/greencheckimage/') . $greencheck[0] . "?nocache=true"  .   htmlspecialchars('" alt="This website is hosted Green - checked by thegreenwebfoundation.org">');?></pre>
 
 									<?php
 									$excerpt = $greencheck[0] . ' is hosted green.'; 
