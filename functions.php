@@ -206,25 +206,8 @@ add_shortcode( 'td', 'td_shortcode' );
 			wp_enqueue_script( 'tgwf-covervid', get_stylesheet_directory_uri() . '/js/covervid.js' , array('tgwf-jquery'), '1.0', true );
 			wp_enqueue_script( 'tgwf-fire-covervid', get_stylesheet_directory_uri() . '/js/fire-covervid.js' , array('tgwf-covervid'), '1.0', true );
 			wp_enqueue_script( 'tgwf-moment', get_stylesheet_directory_uri() . '/js/moment.js' , array('tgwf-jquery'), '', false );	 
-			wp_enqueue_script( 'tgwf-scripts',get_stylesheet_directory_uri() . '/js/tgwf.js' , array('tgwf-jquery','tgwf-moment'), '', false );
 			wp_enqueue_script( 'tgwf-numeral', get_stylesheet_directory_uri() . '/js/numeral.js', array(), '1.0', true );			
 			wp_enqueue_script( 'tgwf-app-link', get_stylesheet_directory_uri() . '/js/browserdetect.js' , array(), '1.0', true );  	
-		}
-		
-		if ( is_page('directory') ) {
-			/* Enqueue styles */	
-			wp_enqueue_style( 'tgwf-jqvmap', get_stylesheet_directory_uri() . '/css/jqvmap.css' , array(), '1.0', 'all' );		
-			
-			/* Enqueue scripts */	
-			wp_enqueue_script( 'tgwf-scripts', get_stylesheet_directory_uri() . '/js/tgwf.js' , array('tgwf-jquery'), '', false );		
-			wp_enqueue_script( 'tgwf-vmap', get_stylesheet_directory_uri() . '/js/jquery.vmap.js' , array('tgwf-jquery'), '1.0', true );
-			wp_enqueue_script( 'tgwf-vmap-world', get_stylesheet_directory_uri() . '/maps/jquery.vmap.world.js' , array('tgwf-jquery'), '1.0', true );
-			wp_enqueue_script( 'tgwf-directory', get_stylesheet_directory_uri() . '/js/directory.js', array(), '1.0', true );						
-			
-		}
-		
-		if ( is_page('green-web-check') ) {
-			wp_enqueue_script( 'tgwf-app-link', get_stylesheet_directory_uri() . '/js/browserdetect.js' , array(), '1.0', true );  
 		}
 	}
 	add_action('wp_enqueue_scripts', 'customScriptStyles');
