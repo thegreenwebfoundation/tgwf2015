@@ -1,19 +1,4 @@
 <!DOCTYPE html>
-<?php 
-	if ( is_page('green-web-check') && isset($_GET["url"]) && !empty($_GET["url"]) ) {
-		global $greencheckResult, $greencheck;	
-		$greencheck = esc_url(trim($_GET["url"]));
-		$greencheck = str_replace('http://', '', $greencheck);
-		$greencheck = str_replace('https://', '', $greencheck);
-		$greencheck = explode("/",$greencheck);
-
-		$response = wp_remote_get('https://api.thegreenwebfoundation.org/greencheck/'.$greencheck[0] . '?nocache=true', ['timeout' => 10]);
-		$greencheckResult = json_decode(wp_remote_retrieve_body($response));
-	} else { 
-		global $greencheckResult;
-		$greencheckResult = null; 
-	}
-?>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
