@@ -272,14 +272,6 @@ function footerScripts() { ?>
 </script>    
 <?php endif; ?>
 
-<?php if ( is_page('directory') ) { ?>
-<script type="text/javascript">
-	$(document).ready(function() {
-		attachDirectory();
-	});
-</script>
-<?php } ?> 
-
 <?php if ( is_page('green-web-check') ) { ?>
 <script type="text/javascript">
 	$(document).ready(function(){
